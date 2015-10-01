@@ -1,4 +1,6 @@
 sudo: required
+language: node_js
+
 deploy:
       - provider: s3
          # rest of S3 deployment for MyApp.zip
