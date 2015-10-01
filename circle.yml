@@ -1,3 +1,5 @@
+general:
+  build_dir: api
 deployment:
   staging:
     branch: master
