@@ -1,5 +1,7 @@
 general:
   build_dir: /
+test:
+  override:
 deployment:
   staging:
     branch: master
