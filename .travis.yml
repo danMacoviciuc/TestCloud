@@ -10,8 +10,6 @@ deploy:
         secret_access_key: UxMkJUO/p76aw529N7yomu71uA/C8Txq9U5IPjbY
         bucket: dan-test-cloud
         key: latest/TestCloud.zip
-        application: TestCloud
-        deployment_group: MyDeploymentGroup
         region: eu-west-1
         on:
         branch: master
