@@ -9,8 +9,8 @@ deploy:
       - provider: s3
          # rest of S3 deployment for MyApp.zip
       - provider: codedeploy
-        access_key_id: "AKIAJJKQWOHYZAD2CBSA"
-        secret_access_key: "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"
+        access_key_id: AKIAJJKQWOHYZAD2CBSA
+        secret_access_key: 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
         bucket: "dan-test-cloud"
         key: latest/TestCloud.zip
         application: TestCloud
