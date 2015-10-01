@@ -12,3 +12,4 @@ deployment:
             s3_location:
                 bucket: dan-test-cloud
                 key_pattern: Dantest-{BRANCH}-{SHORT_COMMIT}
+                deployment_group: my-deployment-group
