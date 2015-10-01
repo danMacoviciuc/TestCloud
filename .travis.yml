@@ -1,0 +1,22 @@
+sudo: required
+language: node_js
+node_js:
+  - "0.8"
+  - "0.10"
+  
+before_install:
+  - "curl -L http://git.io/ejPSng | /bin/sh"
+deploy:
+      - provider: s3
+         # rest of S3 deployment for MyApp.zip
+      - provider: codedeploy
+        access_key_id: "AKIAJJKQWOHYZAD2CBSA"
+        secret_access_key: "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"
+        bucket: "dan-test-cloud"
+        key: latest/TestCloud.zip
+        application: TestCloud
+        deployment_group: MyDeploymentGroup
+        region: eu-west-1
+        on:
+        branch: master
+  
