@@ -1,5 +1,5 @@
 general:
-  build_dir: circle
+  build_dir: /
 test:
   override:
 deployment:
