@@ -1,5 +1,8 @@
 general:
   build_dir: circle
+test:
+  override:
+       run_build.sh
 deployment:
   staging:
     branch: master
