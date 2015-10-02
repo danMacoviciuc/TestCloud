@@ -12,4 +12,3 @@ deployment:
             revision_type: S3
             s3_location:
                 bucket: dan-test-cloud
-        
