@@ -2,7 +2,7 @@ general:
   build_dir: circle
 test:
   override:
-        - run_build.sh
+        - echo "hello world"
 deployment:
   staging:
     branch: master
