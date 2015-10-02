@@ -4,7 +4,7 @@ test:
   override:
         - echo "hello world"
 deployment:
-  aws:
+  staging:
     branch: master
-        commands:
-        - echo "hello world"
+    commands:
+	- echo "hello world"
